@@ -9,7 +9,7 @@ pipeline {
     environment {
         // Nexus
         NEXUS_URL = 'http://18.207.125.168:8081'
-        NEXUS_REPO = 'releases'
+        NEXUS_REPO = 'release'
         GROUP_ID = 'com/example/app'    // adjust as needed
         ARTIFACT_ID = 'basic-java-app'
         VERSION = '1.0-SNAPSHOT'
