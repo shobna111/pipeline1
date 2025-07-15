@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         // Nexus
-        NEXUS_URL = 'http://18.234.35.128:8081'
+        NEXUS_URL = 'http://18.207.125.168:8081'
         NEXUS_REPO = 'releases'
         GROUP_ID = 'com/example/app'    // adjust as needed
         ARTIFACT_ID = 'basic-java-app'
@@ -16,7 +16,7 @@ pipeline {
 
         // Deployment server
         DEPLOY_USER = 'ec2-user'
-        DEPLOY_HOST = '18.234.35.128'
+        DEPLOY_HOST = '18.207.125.168'
         DEPLOY_PATH = '/var/www/html'
     }
 
